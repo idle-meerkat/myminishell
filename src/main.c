@@ -12,6 +12,7 @@
 
 #include "minishell.h"
 
+char					**g_envv;
 /*
 ** Parses a string to convert variables to their value then returns the parsed
 ** string

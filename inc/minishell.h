@@ -23,7 +23,7 @@
 
 # define IS_QUOTE(x) (x == '"' || x == '\'')
 
-char					**g_envv;
+extern char					**g_envv;
 
 /*
 ** src/cd_builtin.c
